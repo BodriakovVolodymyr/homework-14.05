@@ -4,6 +4,7 @@ class TaxiList
 {
 	list<Taxi>taxis;
 public:
+	void pushBack(Taxi t);
 	void showAll();
 	void addFront();
 	void insertBeforeTaxi();

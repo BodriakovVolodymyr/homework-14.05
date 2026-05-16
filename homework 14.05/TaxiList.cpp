@@ -1,11 +1,17 @@
 #include "TaxiList.h"
 
+void TaxiList::pushBack(Taxi t)
+{
+	taxis.push_back(t);
+}
+
 void TaxiList::showAll()
 {
 	for (Taxi t : taxis)
 
 	{
 		t.show();
+		cout << endl;
 	}
 }
 
